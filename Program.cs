@@ -168,7 +168,7 @@ namespace DIS_Assignmnet1_SPRING_2022
         {
             try
             {
-                int[] integer_array = new int[100];
+                int[] integer_array = new int[100]; // forming a corresponding count array that stores count of each element from the input array
                 int j = 0;
                 int total = 0;
                 foreach (int x in bull_bucks)
@@ -181,7 +181,7 @@ namespace DIS_Assignmnet1_SPRING_2022
                     j = j+1;
                     if (i == 1)
                     {
-                        total = total + j;
+                        total = total + j; //calculating the sum of unique elements.
                     }
                    
                 }
